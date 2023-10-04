@@ -100,3 +100,31 @@ header {
     width: 35%;
     margin: 0 auto;
 }
+
+/* Our Donate Plan */
+.third-container {
+    display: flex;  
+    gap: 24px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.our-work {
+    border-radius: 5px;
+    padding: 60px 22px 50px 22px;
+    width: 20%;
+}
+
+.our-work h3 {
+    color: #121212;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.our-work p {
+    color: #707070;
+    font-family: Poppins;
+    margin-top: 16px;
+}
