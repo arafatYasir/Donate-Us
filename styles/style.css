@@ -27,7 +27,7 @@ header {
     font-size: 23px;
 }
 
-.donate-btn {
+.common-btn {
     margin-top: 30px;
     background-color: #ff5959;
     color: white;
@@ -127,4 +127,29 @@ header {
     color: #707070;
     font-family: Poppins;
     margin-top: 16px;
+}
+
+/* Description */
+.description .section-title {
+    text-align: left;
+}
+
+.description .section-description {
+    text-align: left;
+}
+/* First part */
+.first-part {
+    margin-top: 111px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-left: 156px;
+}
+
+.first-part .first-section {
+    max-width: 500px;
+}
+
+.first-part img {
+    width: 75%;
 }
