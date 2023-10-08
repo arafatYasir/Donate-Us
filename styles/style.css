@@ -143,7 +143,6 @@ header {
     display: flex;
     gap: 100px;
     justify-content: center;
-    margin-left: 156px;
 }
 
 .first-part .first-section {
@@ -151,5 +150,23 @@ header {
 }
 
 .first-part img {
-    width: 75%;
+    height: 470.250px;
+    width: 705px;
+}
+
+/* Second Part */
+.second-part {
+    margin-top: 111px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.second-part .first-section {
+    max-width: 500px;
+}
+
+.second-part img {
+    height: 470.250px;
+    width: 705px;
 }
