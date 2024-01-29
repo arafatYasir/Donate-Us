@@ -218,3 +218,70 @@ footer p {
     color: #fff;
     margin-top: 24px;
 }
+
+/* Media Query */
+
+/* Mobile devices */
+@media only screen and (max-width: 576px) {
+    /* Header */
+    header {
+        height: 450px;
+        padding: 0;
+        background-size: 100% 100%;
+    }
+    .header-title {
+        font-size: 16px;
+        padding: 30px;
+    }
+    .header-description {
+        font-size: 20px;
+        padding: 0 25px 0 25px;
+    }
+    .common-btn {
+        padding: 14px 31px;
+        font-size: 17px;
+    }
+
+    /* Donate-today */
+    .first-container {
+        flex-direction: column;
+    }
+
+    /* Our-donate-plan */
+    .third-container {
+        flex-direction: column;
+    }
+    .third-container .our-work {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    /* Description */
+    .first-part {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .second-part {
+        flex-direction: column;
+        gap: 0;
+    }
+    .first-part img, .second-part img {
+        width: 100%;
+    }
+
+    /* Updates and Subscribe */
+    .subscribe {
+        width: 100%;
+    }
+    .subscribe input {
+        padding-left: 14px;
+        padding-right: 0;
+    }
+}
+
+/* Temp */
+.hide {
+    display: none;
+}
