@@ -246,6 +246,10 @@ footer p {
     .first-container {
         flex-direction: column;
     }
+    .first-container .common, .uncommon {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     /* Our-donate-plan */
     .third-container {
